@@ -25,10 +25,10 @@ body {
 
 #sidebar {
 	float: left;
-	width: 260px;
+	width: 270px;
 	min-height: 800px;
 	padding-top: 10px;
-	background: #003333;
+	background: #206020;
 	padding: 3px;
 	color: white;
 	
@@ -46,25 +46,41 @@ body {
 #foto {
 	text-align: center;
 	background: lightgray;
+	margin-left: 14px;
+	height: 250px;
+	width: 200px;
 	padding: 20px;
+	border: 2px white solid;
 
 }
 
 #myFoto {
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 	margin-left: 10px;
+	margin-top: 10px;
 	width: 90%;
-	height: 250px;
+	height: 228px;
 	text-align: bottom;
 	background-color: red;
 	padding: 0px;
+}
+
+.smallIcon{
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+
+a.tilelink {
+	color: white;
+	text-decoration: none;
 }
 
 
 
 #mainContent {
 	float: left;	
-	width: 776px;
+	width: 766px;
 	height: 810px;
 	border-left: 8px solid #202020;
 }
