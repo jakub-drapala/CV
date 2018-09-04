@@ -13,10 +13,10 @@
       "src": "fontawesome"
     },
     {
-      "uid": "767fede84586366cd7d6c835be745454",
+      "uid": "2adb5fa922bd92ebeef498ec7dbcae6d",
       "css": "mobile",
       "code": 59393,
-      "src": "entypo"
+      "src": "iconic"
     },
     {
       "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
@@ -37,16 +37,22 @@
       "src": "zocial"
     },
     {
-      "uid": "43be174b82af7559a7550ea38650ae4f",
-      "css": "css",
-      "code": 59397,
-      "src": "elusive"
+      "uid": "01c946ce2ed5500e0a918f2b3a7d1923",
+      "css": "css3",
+      "code": 61756,
+      "src": "fontawesome"
     },
     {
       "uid": "24d1008bf15b6c02a5e7a6af026987dd",
       "css": "github-text",
       "code": 62215,
       "src": "brandico"
+    },
+    {
+      "uid": "20fc52f9a88bb7bda023ef209acac095",
+      "css": "graduation-cap",
+      "code": 61853,
+      "src": "fontawesome"
     }
   ]
 }

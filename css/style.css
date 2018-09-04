@@ -8,7 +8,7 @@ body {
 	margin-right: auto;
 	background: lightgray;
 	width: 1050px;
-	min-height:800px;
+	min-height:1200px;
 }
 
 #logo {
@@ -23,15 +23,19 @@ body {
 	letter-spacing: 3px;
 }
 
+#content {
+	min-height: 1100px;
+	border: 6px white solid;
+}
+
 #sidebar {
 	float: left;
 	width: 270px;
-	min-height: 800px;
+	min-height: 1093px;
 	padding-top: 10px;
 	background: #206020;
 	padding: 3px;
 	color: white;
-	
 	
 	
 	
@@ -82,24 +86,25 @@ a.tilelink:hover {
 
 
 #mainContent {
-	float: left;	
-	width: 766px;
+	float: left;
+	min-height: 1100px;
+	width: 756px;
 	background: #bcbcbc;
-	height: 810px;
-	border-left: 8px solid #202020;
+	border-left: 6px solid white;
+	font-size: 20px;
 }
 
 .smallTitle {
 	margin-top: 30px;
 	margin-left: 50px;
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 800;
+	letter-spacing: 2px;
 	
 }
 
 #javaSkill {
 	float: left;
-	font-size: 20px;
 	margin-left: 80px;
 	text-align: center;
 }
@@ -108,7 +113,6 @@ a.tilelink:hover {
 	float: left;
 	margin-top: 50px;
 	margin-left: 170px;
-	font-size: 20px;
 	text-align: center;
 }
 
@@ -118,17 +122,59 @@ a.tilelink:hover {
 	margin-top: 30px;
 }
 
+#htmlSkill:hover {
+	color: #ff751a;
+}
+
 #cssSkill {
 	float: left;
 	margin-left: 90px;
 	margin-top: 30px;
 }
 
+#cssSkill:hover {
+	color:  #33adff;
+}
+
 #gitSkill {
 	float: left;
 	font-size: 80px;
 	margin-left: 90px;
-	margin-top: 30px;
+	margin-top: 30px;	
+}
+
+#gitSkill:hover {
+	color: gold;
+}
+
+#englishSkill {
+	float: left;
+	margin-top: 20px;
+	margin-left: 75px;
+	text-align: center;
+	
+}
+
+#germanSkill {
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+#graduationDescription {
+	font-size: 20px;
+	font-weight: 600;
+	margin-top: 14px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+
+#footer {
+	background: #202020;
+	text-align: justify;
+	color: white;
 	
 }
 
