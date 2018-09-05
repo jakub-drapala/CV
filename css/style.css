@@ -24,14 +24,14 @@ body {
 }
 
 #content {
-	min-height: 1100px;
+	min-height: 1200px;
 	border: 6px white solid;
 }
 
 #sidebar {
 	float: left;
 	width: 270px;
-	min-height: 1093px;
+	min-height: 1193px;
 	padding-top: 10px;
 	background: #206020;
 	padding: 3px;
@@ -87,7 +87,7 @@ a.tilelink:hover {
 
 #mainContent {
 	float: left;
-	min-height: 1100px;
+	min-height: 1200px;
 	width: 756px;
 	background: #bcbcbc;
 	border-left: 6px solid white;
@@ -162,7 +162,7 @@ a.tilelink:hover {
 	text-align: center;
 }
 
-#graduationDescription {
+.description {
 	font-size: 20px;
 	font-weight: 600;
 	margin-top: 14px;
