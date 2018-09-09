@@ -38,7 +38,13 @@ body {
 	color: white;
 	
 	
-	
+}
+
+#sticky {
+	z-index: 100;
+	top: 0;
+	left: 0;
+	position: sticky;
 }
 
 #firstAndLastName {
@@ -55,18 +61,33 @@ body {
 	width: 200px;
 	padding: 20px;
 	border: 2px white solid;
+	position: sticky;
+	top: 0;
+	left: 0;
+	position: static;
 
 }
 
 #myFoto {
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 15px 20px 2px -8px rgba(0,0,0,0.73);
 	margin-left: 10px;
 	margin-top: 10px;
-	width: 90%;
-	height: 228px;
+	width: 180px;
+	height: 225px;
 	text-align: bottom;
 	background-color: red;
 	padding: 0px;
+	position: absolute;
+	z-index: 50;
+}
+
+#pin {
+	z-index: 100;
+	position: absolute;
+	margin-top: 0;
+	margin-left: 70px;
+	
+
 }
 
 .smallIcon{
