@@ -1,13 +1,13 @@
 body {
-	background: #202020;
+	background: white;
+	color: black;
 	font-family: 'Mukta', sans-serif;
 }
 
 #container {
 	margin-left: auto;
 	margin-right: auto;
-	background: lightgray;
-	width: 1050px;
+	width: 1060px;
 	min-height:1200px;
 }
 
@@ -15,37 +15,33 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #202020;
 	padding: 10px;
-	color: white;
 	font-size: 60px;
 	font-weight: 800;
 	letter-spacing: 3px;
 }
 
+
+
 #content {
-	min-height: 1200px;
-	border: 6px white solid;
+	min-height: 1390px;
+	border: 2px black solid;
 }
 
 #sidebar {
 	float: left;
-	width: 270px;
-	min-height: 1193px;
+	width: 274px;
+	min-height: 1384px;
 	padding-top: 10px;
-	background: #206020;
+	background: #004080;
 	padding: 3px;
 	color: white;
 	
-	
 }
 
-#sticky {
-	z-index: 100;
-	top: 0;
-	left: 0;
-	position: sticky;
-}
+
+
+
 
 #firstAndLastName {
 	text-align: center;
@@ -53,48 +49,25 @@ body {
 	font-weight: 600;
 }
 
-#foto {
-	text-align: center;
-	background: #dedede;
-	margin-left: 14px;
-	height: 250px;
-	width: 200px;
-	padding: 20px;
-	border: 2px white solid;
-	position: sticky;
-	top: 0;
-	left: 0;
-	position: static;
 
-}
 
 #myFoto {
-	box-shadow: 8px 13px 4px 1px rgba(0,0,0,0.75);
-
-	margin-left: 10px;
-	margin-top: 10px;
-	width: 175px;
-	height: 223px;
-	text-align: bottom;
-	background-color: lightgray;
-	padding: 0px;
-	position: absolute;
-	z-index: 50;
-}
-
-#pin {
-	z-index: 100;
-	position: absolute;
-	margin-top: 0;
-	margin-left: 70px;
+	margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 52px;
+    width: 200px;
+    height: 255px;
+    background-color: lightgray;
+    border: solid 5px white;
 	
-
 }
+
+
 
 .smallIcon{
-	margin-top: 15px;
-	margin-left: 20px;
-	font-size: 16px;
+	margin-top: 22px;
+    margin-left: 27px;
+    font-size: 16px;
 }
 
 a.tilelink {
@@ -109,164 +82,33 @@ a.tilelink:hover {
 
 #mainContent {
 	float: left;
-	min-height: 1200px;
-	width: 756px;
-	background: #bcbcbc;
-	border-left: 6px solid white;
-	font-size: 20px;
+    min-height: 1390px;
+    width: 774px;
+    background: white;
+    font-size: 20px;
+	border-left: 2px black solid;
 }
 
 .smallTitle {
-	margin-top: 30px;
-	margin-left: 50px;
-	font-size: 30px;
-	font-weight: 800;
-	letter-spacing: 2px;
+	margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+	text-indent: 1.8em;
+    background: #cce6ff;
 	
 }
 
-#javaSkill {
-	float: left;
-	margin-left: 80px;
-	text-align: center;
-	opacity: 0.7;
-	font-weight: 600;
-	
-	
-}
-
-#javaSkill:hover {
-	opacity: 1;
-}
-
-#javaSkill:hover > #javaSkillDescription {
-	display: block;
-}
-
-#javaSkillDescription {
-	z-index: 180;
-	position: absolute;
-	margin-left: 140px;
-	font-size: 16px;
-	display: none;
-	
-}
 ul {
-	text-align: center;
-}
-
-ul > li {
-	text-align: justify;
-	font-weight: 400;
-}
-
-#springSkill {
-	float: right;
-	margin-top: 50px;
-	margin-left: 500px;
-	height: 200px;
-	/*width: 300px;*/
-	text-align: center;
-	opacity: 0.7;
-	font-weight: 600;
-	/*background-color: lightblue;*/
-	position: absolute;
-	
-	
-}
-
-
-
-#springSkill:hover {
-	opacity: 1;
-}
-
-#springSkill:hover > #springSkillDescription{
-	display: block;
-}
-
-#springSkillDescription {
-	z-index: 180;
-	position: relative;
-	display: none;
-	margin-right: 100px;
-	float: right;
-	text-align: right;
-}
-
-
-
-#htmlSkill {
-	float: left;
 	margin-left: 50px;
-	margin-top: 30px;
-	opacity: 0.8;
+    line-height: 2.4em;
+	
 }
 
-#htmlSkill:hover {
-	color: #ff751a;
-	opacity: 1;
-}
-
-#htmlSkill:hover > #htmlDescription {
-	display: block;
-	color: black;
-}
-
-#htmlDescription {
-	margin-top: 30px;
-	display: none;
-	text-align: center;
-	position: absolute;
-}
-
-#cssSkill {
-	float: left;
-	margin-left: 55px;
-	margin-top: 30px;
-	opacity: 0.8;
-}
-
-#cssSkill:hover {
-	color:  #33adff;
-	opacity: 1;
-}
-
-#cssDescription {
-	text-align: center;
-	margin-top: 26px;
-	color: black;
-	position: absolute;
-	display: none;
-}
-
-#cssSkill:hover > #cssDescription {
-	display: block;
-}
-
-#gitSkill {
-	float: left;
-	font-size: 80px;
-	margin-left: 20px;
-	margin-top: 30px;
-	opacity: 0.8;	
-}
-
-#gitSkill:hover {
-	color: gold;
-	opacity: 1;
-}
-
-#gitDescription {
-	text-align: center;
-	color: black;
-	position: absolute;
-	font-size: 20px;
-	display: none;
-}
-
-#gitSkill:hover > #gitDescription {
-	display: block;
+p {
+	text-indent: 4em;
+	margin-left: 50px;
+	font-style: italic;
 }
 
 #englishSkill {
@@ -281,7 +123,12 @@ ul > li {
 	float: left;
 	margin-top: 20px;
 	margin-left: 100px;
+	margin-bottom: 30px;
 	text-align: center;
+}
+
+#graduation {
+	margin-bottom: 30px;
 }
 
 .description {
@@ -294,9 +141,9 @@ ul > li {
 
 
 #footer {
-	background: #202020;
+	padding: 5px 10px;
 	text-align: justify;
-	color: white;
+	
 	
 }
 
