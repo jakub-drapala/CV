@@ -4,4 +4,4 @@ There is my CV. If you want open it in web browser, you need download repository
 
 I've written my CV in html and css to practice these programming languages.
 
-There's in branch "playWithCss" another layout.
+There's on branch "playWithCss" another layout.
